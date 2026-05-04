@@ -1,6 +1,6 @@
 {
   "rewrites": [
     { "source": "/download", "destination": "/api/download" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/((?!sitemap.xml|googlebfc33034bed61112.html).*)", "destination": "/index.html" }
   ]
 }
